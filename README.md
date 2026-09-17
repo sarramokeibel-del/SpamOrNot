@@ -10,18 +10,14 @@ Saves the trained model and vectorizer for reuse (SpamOrNot.pkl, TfidfVectorizer
 Runs predictions on new, unseen messages.
 
 ## Project Structure
+```text
 SpamOrNot/
-
 ├── SpamOrNot.ipynb# Main notebook   # EDA, preprocessing, training, evaluation
-
 ├── email.csv     # Dataset (Category, Message)
-
 ├── SpamOrNot.pkl     # Trained model (pickled)
-
 ├── TfidfVectorizer.pkl    # Fitted TF-IDF vectorizer (pickled)
-
 └── README.md
-
+```
 ## How It Works
 Data Loading & EDA - Load the dataset and explore the distribution of spam vs. ham messages.
 Text Vectorization - Convert raw text into numerical features using TfidfVectorizer.
